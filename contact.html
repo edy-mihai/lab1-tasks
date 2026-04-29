@@ -25,26 +25,45 @@
         <main id="main-content">
             <h2>Form</h2>
             <section>
-                <form method="post" action="#" aria-label="Contact form">
+                <form method="post" action="#" aria-label="Contact form" id="contactForm">
                     <fieldset>
                         <legend>Your details</legend>
                         <label for="name">Full name (required)</label>
                         <input type="text" id="name" name="name" required>
+
                         <label for="email">Email (required)</label>
                         <input type="email" id="email" name="email" required>
+
                         <label for="phone">Phone (optional)</label>
                         <input type="tel" id="phone" name="phone"
                             pattern="[0-9\s\-+]+" title="Digits, spaces, hyphens, or plus only">
+
+                        <label for="dob">Date of birth</label>
+                        <input type="date" id="dob" name="dob" required>
+
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" min="18" max="60" required>
+
+                        <label for="website">Website URL</label>
+                        <input type="url" id="website" name="website" required>
+
+                        <label for="fileUpload">File Upload</label>
+                        <input type="file" id="fileUpload" name="fileUpload" accept=".pdf,.docx" required>
+
+                        <label for="favColor">Favorite Color</label>
+                        <input type="color" id="favColor" name="favColor" required>
+                        
                     </fieldset>
 
                     <fieldset>
                         <legend>Your message</legend>
                         <label for="subject">Subject (required)</label>
-                        <input type="text" id="subject" name="subject" required
-                            aria-describedby="subject-hint">
-                        <p id="subject-hint" class="form-hint">
-                            e.g. Complaints, suggestions, ideas
-                        </p>
+                        <select id="subject" name="subject">
+                            <option value="">Please choose a subject</option>
+                            <option>Complaints</option>
+                            <option>Suggestions</option>
+                            <option>Ideas</option>
+                        </select>
                         <label for="msg">Message (required)</label>
                         <textarea id="msg" name="message" rows="3" required></textarea>
                     </fieldset>
@@ -122,5 +141,6 @@
             <p>Petcovici Eduard-Mihai, Web Design 2026</p>
         </footer>
 
+        <script src="script.js"></script>
     </body>
 </html>
