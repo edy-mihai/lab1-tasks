@@ -1,0 +1,364 @@
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+
+
+/* Group 2 */
+
+position: absolute;
+width: 957.04px;
+height: 694px;
+left: 241px;
+top: 165px;
+
+
+
+/* © 2026 West University of Timisoara | Data Digitalization and Analysis */
+
+position: absolute;
+width: 476px;
+height: 17px;
+left: calc(50% - 476px/2);
+top: 842px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #11BBDC;
+
+
+
+/* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 479.04px;
+height: 663.09px;
+left: 719px;
+top: 165px;
+
+background: url(fundalLOGARE.png);
+border-width: 3px 3px 3px 0px;
+border-style: solid;
+border-color: #B3B0B0;
+border-radius: 0px 20px 20px 0px;
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 477.96px;
+height: 663.09px;
+left: 241px;
+top: 165px;
+
+background: #FFFFFF;
+border-width: 3px 0px 3px 3px;
+border-style: solid;
+border-color: #B3B0B0;
+border-radius: 20px 0px 0px 20px;
+transform: matrix(1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 385.8px;
+height: 44.3px;
+left: 297.8px;
+top: 410.06px;
+
+border: 1px solid #B3B0B0;
+border-radius: 20px;
+
+
+/* Rectangle 5 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 386px;
+height: 44px;
+left: 298px;
+top: 522px;
+
+border: 1px solid #B3B0B0;
+border-radius: 20px;
+
+
+/* Email */
+
+position: absolute;
+width: 50.37px;
+height: 29.07px;
+left: 306.37px;
+top: 380.99px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #11BBDC;
+
+
+
+/* Password */
+
+position: absolute;
+width: 81.45px;
+height: 26.3px;
+left: 306.37px;
+top: 495.89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #11BBDC;
+
+
+
+/* Authentication */
+
+position: absolute;
+width: 277.56px;
+height: 60.91px;
+left: 351.38px;
+top: 281.32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+
+color: #11BBDC;
+
+
+
+/* LogoUVT 1 */
+
+position: absolute;
+width: 180px;
+height: 168px;
+left: 869px;
+top: 286px;
+
+background: url(LogoUVT.png);
+
+
+/* The UVT Intranet Portal is in continuous development, providing useful information for UVT students and staff about e-uvt services. */
+
+position: absolute;
+width: 298px;
+height: 81px;
+left: calc(50% - 298px/2 + 239px);
+top: 501px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Forgot your password? */
+
+position: absolute;
+width: 156px;
+height: 17px;
+left: 528px;
+top: 573px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #E6D627;
+
+
+
+/* Single login access to all e-UVT digital services */
+
+position: absolute;
+width: 256px;
+height: 38px;
+left: 363px;
+top: 663px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #11BBDC;
+
+
+
+/* Component 3 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 306px;
+top: 574px;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #3E5EC5;
+
+
+/* ✓ */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Component 2 */
+
+position: absolute;
+width: 385px;
+height: 43px;
+left: 766px;
+top: 601px;
+
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(248, 246, 246, 0.31);
+border-radius: 20px;
+
+
+/* UVT Intranet */
+
+position: absolute;
+left: 34.03%;
+right: 33.77%;
+top: 23.26%;
+bottom: 20.93%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Component 1 */
+
+position: absolute;
+width: 385px;
+height: 43px;
+left: 298px;
+top: 601px;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #E6D627;
+border-radius: 20px;
+
+
+/* Authentication */
+
+position: absolute;
+left: 31.43%;
+right: 31.17%;
+top: 23.26%;
+bottom: 20.93%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Keep me logged in */
+
+position: absolute;
+width: 125px;
+height: 17px;
+left: 332px;
+top: 573px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+

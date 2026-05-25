@@ -1,0 +1,44 @@
+1. Automated Lighthouse Findings
+
+Score: 84/100
+
+Audit Failures and Warnings:
+
+aria-roles: [role] values are not valid.
+Element: section.content-section
+Recommendation: Roles must be correct and must not override native elements incorrectly. Update the attribute to a valid W3C ARIA role.
+
+image-alt: Image elements do not have [alt] attributes.
+Element: img
+Recommendation: An image must have an alt attribute describing it, or be marked as decorative (using alt="").
+
+color-contrast: Background and foreground colors do not have a sufficient contrast ratio.
+Element: p.low-contrast
+Recommendation: Ensure a minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text.
+
+2. Suggested Improvements
+
+Images (image-alt): Add descriptive alt text to meaningful images so screen readers can describe them, and use empty alt attributes for purely visual elements.
+
+Labels (label): Each custom control and form input must be explicitly associated with a <label> or an aria-label so assistive tech can identify its purpose.
+
+Contrast (color-contrast): Adjust the CSS background and foreground colors to meet the strict 4.5:1 or 3:1 ratio requirements for legibility.
+
+Focus Order (tabindex): Ensure the visual order matches the DOM order so interactive elements receive keyboard focus in a logical, expected sequence.
+
+Link Text: Avoid generic text like "click here"; interactive elements must indicate their purpose and state clearly.
+
+Roles (aria-roles): Remove or fix the invalid role values so assistive technologies understand how to interact with those specific HTML nodes.
+
+3. Manual Windows Narrator Evaluation
+
+Experience and Page Structure:
+Microsoft Narrator is the native screen reader in Windows, which reads the accessibility tree and provides spoken feedback for each interactive and non-interactive element.
+Using Narrator allows precise evaluation of how headings, links, buttons, form controls, and state changes are announced.
+When navigating the document structure, it is important to observe whether the spoken order matches the visual order of the page.
+
+Usability Obstacles Encountered:
+Images: When reaching the broken image in the "Quick checks" section, Narrator struggles because it lacks an alt attribute. We must observe whether decorative images are skipped or marked correctly with alt="" or aria-hidden="true".
+Form Controls: The "Search products..." field is confusing without a dedicated label. It is critical to observe whether form controls announce their state, such as required, checked, expanded, or collapsed.
+Links: The links in the Navigation section ("Learn more", "Start now") lack context. Narrator verifies whether ARIA labels and accessible names are descriptive and not generic.
+Semantics: For the element labeled "Focusable content without button semantics", Narrator will not identify it properly. We must check whether elements are announced with the correct type, such as button, link, heading, or textbox.
